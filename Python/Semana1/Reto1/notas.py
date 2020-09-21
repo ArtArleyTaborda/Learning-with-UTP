@@ -30,4 +30,8 @@
 #print(nota_quices("MA00201520", 5,14,76,91,5))
 #El promedio ajustado del estudiante MA00201520 es: 2.33
 
-print("¡Binenvenido!\n")
+print("¡Binenvenido!\nEste programa te ayudará a calcular el promedio de las notas de tus estudiantes")
+
+nameStudent = input("Por favor ingresa el nombre del estudiante: ")
+
+print("A continuación, podrá ingresar las notas del estudiante ", nameStudent," : ")
