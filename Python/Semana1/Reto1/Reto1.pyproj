@@ -2,14 +2,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6f344731-902f-4967-a37e-6db1b6710b84</ProjectGuid>
+    <ProjectGuid>af99ac74-52db-4923-a191-82df51de2ce9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>Reto1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
-    <InterpreterId>IronPython|2.7-32</InterpreterId>
-    <LaunchProvider>IronPython (.NET) launcher</LaunchProvider>
     <OutputPath>.</OutputPath>
     <Name>Reto1</Name>
     <RootNamespace>Reto1</RootNamespace>
@@ -23,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Reto1.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="IronPython|2.7-32" />
+    <Compile Include="Reto1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
